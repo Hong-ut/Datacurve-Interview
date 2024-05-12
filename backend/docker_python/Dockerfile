@@ -19,4 +19,4 @@ CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]
 
 
 # docker build -t flask-api .
-# docker run -p 5000:5000  --network none --cap-drop=NET_ADMIN --cap-drop=SYS_ADMIN flask-api
+# docker run -p 5000:5000 flask-api
